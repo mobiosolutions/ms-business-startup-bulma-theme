@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Bulma | Opensource Website</title>
+    <!-- Link Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <script defer="" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Breadcrumb Start -->
+        <h1 class="has-text-centered title">breadcrumb </h1>
+        <nav class="breadcrumb  is-centered" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="#">Bulma</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Components</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+            </ul>
+        </nav>
+        <!-- Breadcrumb end -->
+
+        <!-- Breadcrumb with Icons Start -->
+        <h1 class="has-text-centered title">Breadcrumb with Icons</h1>
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span>Bulma</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="fas fa-book" aria-hidden="true"></i>
+                        </span>
+                        <span>Documentation</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
+                        </span>
+                        <span>Components</span>
+                    </a>
+                </li>
+                <li class="is-active">
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                        </span>
+                        <span>Breadcrumb</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Breadcrumb with Icons end-->
+
+        <!-- Alternative separators start -->
+        <h1 class="has-text-centered title">Alternative separators</h1>
+        <p>You can choose between <strong>4 additional separators</strong>: <code>has-arrow-separator</code>
+            <code>has-bullet-separator</code>
+            <code>has-dot-separator</code> and <code>has-succeeds-separator</code>.</p>
+        <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="#">Bulma</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Components</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+            </ul>
+        </nav>
+        <!-- Alternative separators end -->
+
+        <!-- card start -->
+        <h1 class="has-text-centered title">card</h1>
+        <div class="columns">
+            <div class="column is-one-third">
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">John Smith</p>
+                                <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="column is-one-third">
+
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Component
+                        </p>
+                        <a href="#" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <svg class="svg-inline--fa fa-angle-down fa-w-10" aria-hidden="true" data-prefix="fas"
+                                    data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+                                    </path>
+                                </svg><!-- <i class="fas fa-angle-down" aria-hidden="true"></i> -->
+                            </span>
+                        </a>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                            <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Save</a>
+                        <a href="#" class="card-footer-item">Edit</a>
+                        <a href="#" class="card-footer-item">Delete</a>
+                    </footer>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p class="title">
+                        “There are two hard things in computer science: cache invalidation, naming things, and
+                        off-by-one
+                        errors.”
+                    </p>
+                    <p class="subtitle">
+                        Jeff Atwood
+                    </p>
+                </div>
+                <footer class="card-footer">
+                    <p class="card-footer-item">
+                        <span>
+                            View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+                        </span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span>
+                            Share on <a href="#">Facebook</a>
+                        </span>
+                    </p>
+                </footer>
+            </div>
+        </div>
+        <!-- card end -->
+
+        <!-- Tab start -->
+        <h1 class="has-text-centered title">Simple Tab</h1>
+        <div class="tabs is-centered">
+            <ul>
+                <li class="is-active"><a>Pictures</a></li>
+                <li><a>Music</a></li>
+                <li><a>Videos</a></li>
+                <li><a>Documents</a></li>
+            </ul>
+        </div>
+
+        <h1 class="has-text-centered title">Icons with text Tab</h1>
+        <div class="tabs is-centered">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <h1 class="has-text-centered title">Styles Tab</h1>
+        <div class="tabs is-boxed">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tabs is-toggle">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tabs is-toggle is-toggle-rounded">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Combining start -->
+        <div class="tabs is-centered is-boxed">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Combining end -->
+
+        <div class="tabs is-toggle is-fullwidth is-large">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Pictures</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Videos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                        <span>Documents</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Tabs end -->
+
+        <h1 class="has-text-centered title">Menu Start</h1>
+        <div class="container">
+            <aside class="menu">
+                <p class="menu-label">
+                    General
+                </p>
+                <ul class="menu-list">
+                    <li><a>Dashboard</a></li>
+                    <li><a>Customers</a></li>
+                </ul>
+                <p class="menu-label">
+                    Administration
+                </p>
+                <ul class="menu-list">
+                    <li><a>Team Settings</a></li>
+                    <li>
+                        <a class="is-active">Manage Your Team</a>
+                        <ul>
+                            <li><a>Members</a></li>
+                            <li><a>Plugins</a></li>
+                            <li><a>Add a member</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Invitations</a></li>
+                    <li><a>Cloud Storage Environment Settings</a></li>
+                    <li><a>Authentication</a></li>
+                </ul>
+                <p class="menu-label">
+                    Transactions
+                </p>
+                <ul class="menu-list">
+                    <li><a>Payments</a></li>
+                    <li><a>Transfers</a></li>
+                    <li><a>Balance</a></li>
+                </ul>
+            </aside>
+        </div>
+
+
+        <!-- Message Start -->
+        <h1 class="has-text-centered title">Message Box</h1>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <article class="message">
+                        <div class="message-header">
+                            <p>Hello World</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+
+                    <article class="message is-dark">
+                        <div class="message-header">
+                            <p>Dark</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-primary">
+                        <div class="message-header">
+                            <p>Primary</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-link">
+                        <div class="message-header">
+                            <p>Link</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <article class="message is-info">
+                        <div class="message-header">
+                            <p>Info</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-success">
+                        <div class="message-header">
+                            <p>Success</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-warning">
+                        <div class="message-header">
+                            <p>Warning</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-danger">
+                        <div class="message-header">
+                            <p>Danger</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus
+                            quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam
+                            gravida
+                            purus diam,
+                            et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
+                            lectus.
+                            Donec
+                            sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+                            neque.
+                            Donec
+                            dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <h1 class="has-text-centered title">Message body only</h1>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <article class="message">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+
+                </div>
+                <div class="column">
+                    <article class="message is-dark">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+
+                </div>
+                <div class="column">
+                    <article class="message is-primary">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+
+
+                </div>
+                <div class="column">
+                    <article class="message is-link">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <article class="message is-info">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-success">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-warning">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-danger">
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="has-text-centered title">Sizes</h1>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <article class="message is-small">
+                        <div class="message-header">
+                            <p>Small message</p>
+                            <button class="delete is-small" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla.Nullam gravida purus diam, et dictum <a>felis
+                                venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message">
+                        <div class="message-header">
+                            <p>Normal message</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla.Nullam gravida purus diam, et dictum <a>felis
+                                venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-medium">
+                        <div class="message-header">
+                            <p>Medium message</p>
+                            <button class="delete is-medium" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla.Nullam gravida purus diam, et dictum <a>felis
+                                venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
+                        </div>
+                    </article>
+                </div>
+                <div class="column">
+                    <article class="message is-large">
+                        <div class="message-header">
+                            <p>Large message</p>
+                            <button class="delete is-large" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla.Nullam gravida purus diam, et dictum <a>felis
+                                venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+        <!-- Message end -->
+
+        <!-- Modal Start -->
+        <div class="container">
+            <h1 class="has-text-centered title"> Launch modal </h1>
+
+            <button class=" button is-primary is-large modal-button toggle-modal">Launch modal</button>
+            <div class="modal" id="modal">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">Modal title</p>
+                        <button class="delete toggle-modal"></button>
+                    </header>
+                    <section class="modal-card-body">
+                        <!-- Content ... -->
+                        <h1>This is Modal Body</h1>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <a class="button is-success toggle-modal">Save changes</a>
+                        <a class="button toggle-modal">Cancel</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal end -->
+
+        <!-- Badge start -->
+        <h1 class="has-text-centered title">Badge</h1>
+        <div class="container">
+            <button class="button badge" data-badge="8">Button</button>
+
+
+            <div class="columns">
+                <div class="column">
+                    <span class="badge" data-badge="">
+                        Notifications
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-success" data-badge="">
+                        Notifications
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-warning" data-badge="">
+                        Notifications
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-danger" data-badge="">
+                        Notifications
+                    </span>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <span class="badge" data-badge="8">
+                        Notifications
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-success" data-badge="88">
+                        Notifications
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-danger" data-badge="888">
+                        Notifications
+                    </span>
+                </div>
+            </div>
+
+            <div class="block">
+                <button class="button badge" data-badge="">Button</button>
+                <button class="button badge" data-badge="8">Button</button>
+            </div>
+
+            <div class="block">
+                <button class="button is-primary badge" data-badge="">Button</button>
+                <button class="button is-info badge" data-badge="8">Button</button>
+            </div>
+        </div>
+
+        <h1 class="has-text-centered title">Badge Size</h1>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <span class="badge is-badge-success is-badge-small" data-badge="10">
+                        Small badge
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-success" data-badge="10">
+                        Normal badge
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-warning is-badge-medium" data-badge="10">
+                        Medium badge
+                    </span>
+                </div>
+                <div class="column">
+                    <span class="badge is-badge-danger is-badge-large" data-badge="10">
+                        Large badge
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Badge end -->
+
+        <!-- Accordion start -->
+        <h1 class="has-text-centered title">Accordion</h1>
+        <div class="container">
+            <section class="accordions">
+                <article class="accordion is-active">
+                    <div class="accordion-header toggle">
+                        <p>Hello World</p>
+                        <button class="toggle" aria-label="toggle"></button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </div>
+                </article>
+                <article class="accordion">
+                    <div class="accordion-header">
+                        <p>Hello World</p>
+                        <button class="toggle" aria-label="toggle"></button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </div>
+                </article>
+                <article class="accordion">
+                    <div class="accordion-header">
+                        <p>Hello World</p>
+                        <button class="toggle" aria-label="toggle"></button>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus
+                                mi</strong>,
+                            tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
+                            Nullam
+                            gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend
+                                lacus</em>,
+                            in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
+                            id
+                            porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <!-- Accordion end -->
+
+        <!-- Pagination start -->
+        <div class="container" id="pagination">
+            <h1 class="has-text-centered title">Pagination</h1>
+            <hr>
+            <nav class="pagination">
+                <a class="pagination-previous is-disabled">Previous</a>
+                <a class="pagination-next">Next page</a>
+                <ul class="pagination-list">
+                    <li>
+                        <a class="pagination-link">1</a>
+                    </li>
+                    <li>
+                        <span class="pagination-ellipsis">…</span>
+                    </li>
+                    <li>
+                        <a class="pagination-link">45</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link is-current">46</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link">47</a>
+                    </li>
+                    <li>
+                        <span class="pagination-ellipsis">…</span>
+                    </li>
+                    <li>
+                        <a class="pagination-link">86</a>
+                    </li>
+                </ul>
+            </nav>
+            <br>
+            <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+                <a class="pagination-previous">Previous</a>
+                <a class="pagination-next">Next page</a>
+                <ul class="pagination-list">
+                    <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                    <li><span class="pagination-ellipsis">…</span></li>
+                    <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+                    <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+                    <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+                    <li><span class="pagination-ellipsis">…</span></li>
+                    <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Pagination end -->
+    </div>
+</body>
+
+</html>
+<!-- Modal script start -->
+<script>
+    var modal = document.getElementById('modal');
+    var elements = document.getElementsByClassName('toggle-modal');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener('click', toggleClass);
+    }
+
+    function toggleClass() {
+        modal.classList.toggle('is-active');
+    }
+</script>
+<!-- Modal script end -->
+
+<!-- Accordion start -->
+<script type="text/javascript"
+    src="https://wikiki.github.io/node_modules/bulma-extensions/bulma-accordion/dist/js/bulma-accordion.min.js"></script>
+<script>
+    var accordions = bulmaAccordion.attach(); // accordions now contains an array of all Accordion instances
+</script>
+<!-- Accordion end -->

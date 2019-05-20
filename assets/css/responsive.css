@@ -1,0 +1,162 @@
+@media screen and (max-width: 1024px) {
+  .columns {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .plan-bg,
+  .testimonial-bg {
+      height: auto;
+  }
+
+  .query-box {
+      height: 400px;
+  }
+
+  input#query-eamil {
+      max-width: 98%;
+  }
+}
+
+/*================== MobileDevice Media Query Start==================*/
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .title {
+      font-size: 22px !important;
+  }
+
+  .p0 {
+      padding: 0;
+  }
+
+  .title-btn-sec ul {
+      display: contents;
+  }
+
+  .title-btn-sec ul li:nth-child(2) {
+      margin-top: 15px;
+  }
+
+  .title-btn-sec {
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+
+  .brand {
+      display: none;
+  }
+
+  .d-block {
+      display: none;
+  }
+
+  .footer-blue {
+      padding: 0 15px;
+  }
+
+  img.logo-img {
+      max-height: 3rem;
+  }
+
+  .service-section {
+      overflow-x: scroll;
+      display: inline-flex;
+      width: 100%;
+  }
+
+  a.button.is-rounded {
+      /* padding-right: 15px; */
+      margin-right: 15px;
+  }
+  
+}
+
+/*================== Mobile Device Media Query Start==================*/
+
+/*================== IPad Device Media Query Start==================*/
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .title-btn-sec {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .brand {
+      padding: 15px 0;
+  }
+
+  .brand img {
+      margin: 0px 5px;
+  }
+
+  .p0 {
+      padding: 0;
+  }
+
+  .hero-body {
+      padding: 3rem 1rem;
+  }
+
+  .p50 {
+      padding: 15px;
+  }
+
+  .levitate {
+      margin-top: -120px;
+      margin-right: -46px;
+      float: right;
+  }
+}
+
+/*================== IPad Device Media Query End==================*/
+
+/*================== IPad Pro Device Media Query Start==================*/
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .levitate {
+      margin-left: -94px;
+      margin-top: -211px;
+      float: none;
+  }
+
+  .title-btn-sec {
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+
+  .brand {
+      padding: 15px 0;
+  }
+
+  .testimonial-content p {
+      font-size: 18px;
+  }
+  
+}
+
+/*================== IPad Pro Device Media Query End==================*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* .container {
+margin: 0 15px !important;
+position: relative;
+} */
+
+  .plan-bg,
+  .testimonial-bg {
+      height: auto;
+  }
+
+  .query-box {
+      height: 330px;
+  }
+  .service-section {
+    overflow-x: scroll;
+    display: inline-flex;
+    width: 100%;
+}
+
+a.button.is-rounded {
+    /* padding-right: 15px; */
+    margin-right: 15px;
+}
+}

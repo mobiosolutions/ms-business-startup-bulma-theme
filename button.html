@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Bulma | Opensource Website</title>
+    <!-- Link Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <script defer="" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Box Start -->
+        <div class="box">
+            <article class="media">
+                <div class="media-left">
+                    <figure class="image is-64x64">
+                        <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa
+                            fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                    </div>
+                    <nav class="level is-mobile">
+                        <div class="level-left">
+                            <a class="level-item" aria-label="reply">
+                                <span class="icon is-small">
+                                    <i class="fas fa-reply" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a class="level-item" aria-label="retweet">
+                                <span class="icon is-small">
+                                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a class="level-item" aria-label="like">
+                                <span class="icon is-small">
+                                    <i class="fas fa-heart" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </article>
+        </div>
+        <!-- Box End -->
+
+        <!-- types of button start -->
+
+        <h1 class="has-text-centered title">Simple button</h1>
+        <a class="button">Button</a>
+
+        <h1 class="has-text-centered title">Different type to add button</h1>
+        <a class="button">Anchor</a>
+        <button class="button">Button</button>
+        <input class="button" type="submit" value="Submit input">
+        <input class="button" type="reset" value="Reset input">
+        <!-- types of button end -->
+
+
+        <!-- color button start -->
+        <h1 class="has-text-centered title">Color button</h1>
+        <a class="button is-white">White</a>
+        <a class="button is-light">Light</a>
+        <a class="button is-dark">Dark</a>
+        <a class="button is-black">Black</a>
+        <a class="button is-text">Text</a>
+
+        <a class="button is-primary">Primary</a>
+        <a class="button is-link">Link</a>
+        <a class="button is-info">Info</a>
+        <a class="button is-success">Success</a>
+        <a class="button is-warning">Warning</a>
+        <a class="button is-danger">Danger</a>
+        <!-- color button end -->
+
+        <!-- Button Sizes Start -->
+        <h1 class="has-text-centered title">Button size</h1>
+        <div class="buttons">
+            <a class="button is-small">Small</a>
+            <a class="button">Default</a>
+            <a class="button is-normal">Normal</a>
+            <a class="button is-medium">Medium</a>
+            <a class="button is-large">Large</a>
+        </div>
+        <div class="buttons are-medium">
+            <a class="button">All</a>
+            <a class="button">Medium</a>
+            <a class="button">Size</a>
+        </div>
+
+        <div class="buttons are-small">
+            <a class="button">Small</a>
+            <a class="button">Small</a>
+            <a class="button">Small</a>
+            <a class="button is-normal">Normal</a>
+            <a class="button">Small</a>
+        </div>
+
+        <!-- Button Sizes End -->
+
+        <!-- Button Display Start -->
+        <h1 class="has-text-centered title">Displays</h1>
+        <div class="container">
+            <a class="button is-small is-fullwidth">Small</a>
+            <a class="button is-fullwidth">Normal</a>
+            <a class="button is-medium is-fullwidth">Medium</a>
+            <a class="button is-large is-fullwidth">Large</a>
+            <!-- Button Display End -->
+
+            <!-- Button Styles Start -->
+            <h1 class="has-text-centered title">Styles</h1>
+            <div class="container">
+                <a class="button is-outlined">Outlined</a>
+                <a class="button is-primary is-outlined">Outlined</a>
+                <a class="button is-link is-outlined">Outlined</a>
+                <a class="button is-info is-outlined">Outlined</a>
+                <a class="button is-success is-outlined">Outlined</a>
+                <a class="button is-danger is-outlined">Outlined</a>
+            </div>
+
+            <h1 class="has-text-centered title">Inverted (the text color becomes the background color)</h1>
+            <div class="container">
+                <a class="button is-primary is-inverted">Inverted</a>
+                <a class="button is-link is-inverted">Inverted</a>
+                <a class="button is-info is-inverted">Inverted</a>
+                <a class="button is-success is-inverted">Inverted</a>
+                <a class="button is-danger is-inverted">Inverted</a>
+            </div>
+
+            <h1 class="has-text-centered title">Rounded buttons</h1>
+            <div class="container">
+                <a class="button is-rounded">Rounded</a>
+                <a class="button is-primary is-rounded">Rounded</a>
+                <a class="button is-link is-rounded">Rounded</a>
+                <a class="button is-info is-rounded">Rounded</a>
+                <a class="button is-success is-rounded">Rounded</a>
+                <a class="button is-danger is-rounded">Rounded</a>
+            </div>
+
+            <h1 class="has-text-centered title">Normal States</h1>
+            <div class="container">
+                <a class="button">Normal</a>
+                <a class="button is-primary">Normal</a>
+                <a class="button is-link">Normal</a>
+                <a class="button is-info">Normal</a>
+                <a class="button is-success">Normal</a>
+                <a class="button is-warning">Normal</a>
+                <a class="button is-danger">Normal</a>
+            </div>
+
+            <h1 class="has-text-centered title">Hover States</h1>
+            <div class="container">
+
+                <a class="button is-hovered">Hover</a>
+                <a class="button is-primary is-hovered">Hover</a>
+                <a class="button is-link is-hovered">Hover</a>
+                <a class="button is-info is-hovered">Hover</a>
+                <a class="button is-success is-hovered">Hover</a>
+                <a class="button is-warning is-hovered">Hover</a>
+                <a class="button is-danger is-hovered">Hover</a>
+            </div>
+
+            <h1 class="has-text-centered title">Focus States</h1>
+            <div class="container">
+                <a class="button is-focused">Focus</a>
+                <a class="button is-primary is-focused">Focus</a>
+                <a class="button is-link is-focused">Focus</a>
+                <a class="button is-info is-focused">Focus</a>
+                <a class="button is-success is-focused">Focus</a>
+                <a class="button is-warning is-focused">Focus</a>
+                <a class="button is-danger is-focused">Focus</a>
+            </div>
+
+            <h1 class="has-text-centered title">Active States</h1>
+            <div class="container">
+                <a class="button is-active">Active</a>
+                <a class="button is-primary is-active">Active</a>
+                <a class="button is-link is-active">Active</a>
+                <a class="button is-info is-active">Active</a>
+                <a class="button is-success is-active">Active</a>
+                <a class="button is-warning is-active">Active</a>
+                <a class="button is-danger is-active">Active</a>
+            </div>
+
+            <h1 class="has-text-centered title">Loading States</h1>
+            <div class="container">
+                <a class="button is-loading">Loading</a>
+                <a class="button is-primary is-loading">Loading</a>
+                <a class="button is-link is-loading">Loading</a>
+                <a class="button is-info is-loading">Loading</a>
+                <a class="button is-success is-loading">Loading</a>
+                <a class="button is-warning is-loading">Loading</a>
+                <a class="button is-danger is-loading">Loading</a>
+            </div>
+
+            <h1 class="has-text-centered title">Disabled States</h1>
+            <div class="container">
+                <a class="button" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-primary" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-link" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-info" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-success" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-warning" title="Disabled button" disabled>Disabled</a>
+                <a class="button is-danger" title="Disabled button" disabled>Disabled</a>
+            </div>
+
+            <h1 class="has-text-centered title">With Font Awesome icons</h1>
+            <p class="buttons">
+                <a class="button">
+                    <span class="icon is-small">
+                        <i class="fas fa-bold"></i>
+                    </span>
+                </a>
+                <a class="button">
+                    <span class="icon is-small">
+                        <i class="fas fa-italic"></i>
+                    </span>
+                </a>
+                <a class="button">
+                    <span class="icon is-small">
+                        <i class="fas fa-underline"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="buttons">
+                <a class="button">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </a>
+                <a class="button is-primary">
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span>Twitter</span>
+                </a>
+                <a class="button is-success">
+                    <span class="icon is-small">
+                        <i class="fas fa-check"></i>
+                    </span>
+                    <span>Save</span>
+                </a>
+                <a class="button is-danger is-outlined">
+                    <span>Delete</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="buttons">
+                <a class="button is-small">
+                    <span class="icon is-small">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </a>
+                <a class="button">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </a>
+                <a class="button is-medium">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </a>
+                <a class="button is-large">
+                    <span class="icon is-medium">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </a>
+            </p>
+
+
+            <h1 class="has-text-centered title">button only contains an icon,</h1>
+            <p class="buttons">
+                <a class="button is-small">
+                    <span class="icon is-small">
+                        <i class="fas fa-heading"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="buttons">
+                <a class="button">
+                    <span class="icon is-small">
+                        <i class="fas fa-heading"></i>
+                    </span>
+                </a>
+                <a class="button">
+                    <span class="icon">
+                        <i class="fas fa-heading fa-lg"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="buttons">
+                <a class="button is-medium">
+                    <span class="icon is-small">
+                        <i class="fas fa-heading"></i>
+                    </span>
+                </a>
+                <a class="button is-medium">
+                    <span class="icon">
+                        <i class="fas fa-heading fa-lg"></i>
+                    </span>
+                </a>
+                <a class="button is-medium">
+                    <span class="icon is-medium">
+                        <i class="fas fa-heading fa-2x"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="buttons">
+                <a class="button is-large">
+                    <span class="icon is-small">
+                        <i class="fas fa-heading"></i>
+                    </span>
+                </a>
+                <a class="button is-large">
+                    <span class="icon">
+                        <i class="fas fa-heading fa-lg"></i>
+                    </span>
+                </a>
+                <a class="button is-large">
+                    <span class="icon is-medium">
+                        <i class="fas fa-heading fa-2x"></i>
+                    </span>
+                </a>
+            </p>
+
+
+            <h1 class="has-text-centered title">Button group</h1>
+            <div class="field is-grouped">
+                <p class="control">
+                    <a class="button is-link">
+                        Save changes
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        Cancel
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button is-danger">
+                        Delete post
+                    </a>
+                </p>
+            </div>
+
+            <h1 class="has-text-centered title">Button addons</h1>
+            <div class="field has-addons">
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-left"></i>
+                        </span>
+                        <span>Left</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-center"></i>
+                        </span>
+                        <span>Center</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-right"></i>
+                        </span>
+                        <span>Right</span>
+                    </a>
+                </p>
+            </div>
+
+
+            <h1 class="has-text-centered title">Button group with addons</h1>
+            <div class="field has-addons">
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-bold"></i>
+                        </span>
+                        <span>Bold</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-italic"></i>
+                        </span>
+                        <span>Italic</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-underline"></i>
+                        </span>
+                        <span>Underline</span>
+                    </a>
+                </p>
+            </div>
+
+            <div class="field has-addons">
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-left"></i>
+                        </span>
+                        <span>Left</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-center"></i>
+                        </span>
+                        <span>Center</span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button">
+                        <span class="icon is-small">
+                            <i class="fas fa-align-right"></i>
+                        </span>
+                        <span>Right</span>
+                    </a>
+                </p>
+            </div>
+
+            <h1 class="has-text-centered title">List of buttons</h1>
+            <div class="buttons">
+                <span class="button is-success">Save changes</span>
+                <span class="button is-info">Save and continue</span>
+                <span class="button is-danger">Cancel</span>
+            </div>
+            <!-- Button Styles End -->
+        </div>
+</body>
+
+</html>
