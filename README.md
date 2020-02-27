@@ -1,5 +1,7 @@
 # ms-business-startup-bulma
 
+![Bulma theme](https://repository-images.githubusercontent.com/187611706/ce4b0680-04b0-11ea-80af-f0e69f65481f)
+
 # [Bulma](https://bulma.io)
 
 Bulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
